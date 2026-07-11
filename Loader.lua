@@ -12,7 +12,7 @@ local GameList = {
 if not GameList[GameId] then warn("Ts game doesn't exist") return false end
 
 local var,err = pcall(function ()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LovelyCat/Scripted/refs/heads/main/" .. GameList[GameId] .. ".lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LovelyCat-dotjpg/Scripted/refs/heads/main/" .. GameList[GameId] .. ".lua"))()
 end)
 
 if var == false  then
