@@ -6,7 +6,7 @@ end
 _G.Executed = true
 local PlaceId,GameId = game.PlaceId,game.GameId
 local GameList = {
-  [10267363348] = "Drain the Lake",
+  [10267363348] = "DraintheLake",
 }
 
 if not GameList[GameId] then warn("Ts game doesn't exist") return false end
